@@ -19,7 +19,7 @@
         const socket = io('https://servidorsoket-io2.onrender.com/', { transports: ['websocket'] });
                             
         
-        socket.emit('mensaje-to-server', { data });
+        // socket.emit('mensaje-to-server', { data });
         
         // Para escuchar
         socket.on('mensaje-de-bienvenida', (data) => {
